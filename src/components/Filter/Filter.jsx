@@ -6,7 +6,7 @@ const Filter = ({ filter, onChange }) => {
       type="text"
       name="filter"
       value={filter}
-      onChange={({ target }) => onChange(target.value)}
+      onChange={onChange}
       placeholder="Enter name four search"
     />
   );
